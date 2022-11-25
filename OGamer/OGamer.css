@@ -1,0 +1,358 @@
+.card-img-overlay {
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media (max-width: 767.98px) {
+    .card-img-overlay {
+        position: relative
+    }
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.32);
+  }
+  
+  .header_area {
+    padding: 10px;
+    z-index: 2;
+    width: 100%;
+    align-items: center;
+    font-size: large;
+  }
+  
+  .page-link{
+    color: black
+  }
+  
+  .card-title{
+    margin: -19px;
+    color:  #f9844ad0;
+    font-size: xxx-large;
+    text-align: center;
+    font-weight: bold
+  }
+  
+  .menu_area {
+    margin-top: 20px;
+  
+  }
+  
+  .logo {
+    margin-left: 10%;
+  }
+  
+  .container-rodapé {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+  }
+  
+  .rodape {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+  }
+  
+  #cabeçalhoo {
+    background-color: rgba(0, 0, 0, 0.349);
+  }
+  
+  .corpo {
+    background-color: rgba(87, 117, 144, 0.153);
+    ;
+  }
+  
+  .título {
+    float: right
+  }
+  
+  #video {
+    width: 50%;
+    float: left;
+  }
+  
+  #descrição {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .descrição {
+    width: 100%;
+    text-align: left;
+  }
+  
+  #título {
+    float: center;
+    text-align: left;
+  }
+  
+  #botão {
+    float: right;
+  }
+  
+  .ava {
+    max-width: fit-content;
+  }
+  
+  .caro {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+  }
+  
+  .novidades {
+    padding-top: 20px;
+  }
+  
+  .entrevista {
+    padding-top: 20px;
+  }
+  
+  #destaque {
+    text-align: center;
+    margin: 10px 0px;
+    margin-bottom: 45px;
+    color: #4d6880;
+    font-weight: bold;
+  }
+  
+  #lancamento {
+    text-align: left;
+    margin: 10px 0px;
+    margin-bottom: 45px;
+    color: hwb(208 30% 50%);
+    margin-top: 50px;
+    font-weight: bold;
+  
+  }
+  
+  #plataformas {
+    text-align: left;
+    margin: 10px 0px;
+    margin-bottom: 45px;
+    color: #4d6880;
+    margin-top: 50px;
+    font-weight: bold;
+  }
+  
+  
+  
+  #publishers {
+    text-align: left;
+    margin: 10px 0px;
+    margin-bottom: 45px;
+    color: #4d6880;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+  
+  }
+  
+  #PublishersContainer {
+    background-color: rgba(87, 117, 144, 0.212);
+  }
+  
+  .carousel-indicators {
+    margin: -1px 0px;
+  }
+  
+  .button {
+    background-color: #00abae7b;
+    color: #000000a4;
+    font-size: x-large;
+    border-radius: 15px;
+    margin: 30px 2px;
+    border-color: #00abaeac;
+    font-weight: bold;
+  }
+  
+  
+  .verMais{
+    
+    font-size: large;
+    border-radius: 14px;
+    border-color: #00abae71;
+    font-size: larger;
+    margin: 10px 2px;
+    font-weight: bold;
+    margin-top: -45px;
+  }
+  
+  .nav {
+    justify-content: space-evenly;
+  }
+  
+  #form-control {
+    background-color: rgb(1, 6, 15);
+  }
+  
+  .DestaqueDiv {
+    background-color: rgba(87, 117, 144, 0.212);
+  
+  }
+  
+  .em-lancamento {
+    justify-content: end;
+  }
+  
+  .publishers {
+    justify-content: end;
+    align-items: flex-end;
+  
+  
+  }
+  
+  .ImagensPublisher {
+    margin-left: 5%;
+    margin-right: 5%;
+  
+  
+  }
+  
+  img {
+    border-radius: 10px;
+  }
+  
+  .SectionRodape {
+    justify-content: center;
+    background-color: #f9844a7c;
+  
+  
+  }
+  
+  #sobre {
+    text-align: left;
+    margin: 10px 0px;
+    margin-bottom: 50px;
+    color: hwb(208 30% 50%);
+    margin-top: 10px;
+  }
+  
+  .textSobre {
+    color: hwb(208 30% 50%);
+  }
+  
+  #editorial {
+    text-align: left;
+    margin: 10px 0px;
+    margin-bottom: 50px;
+    color: hwb(208 30% 50%);
+    margin-top: 10px;
+  }
+  
+  .EDdescricao {
+    text-align: left;
+    color: hwb(208 30% 50%);
+    font-weight: bold
+  }
+  
+  .nomeAutor {
+    color: hwb(208 30% 50%);
+  }
+  
+  #RedesSociais {
+    color: #f9844a
+  }
+  
+  .TextoCorrido {
+    color: #000000;
+    font-size: medium;
+    text-align: justify;
+    text-justify: auto;
+    font-family: Georgia, serif;
+  
+  }
+  
+  .JogoNome {
+    font-weight: bold;
+    color: #577590;
+  }
+  
+  .TituloInicialDescricao {
+    font-weight: bold;
+    font-size: medium;
+    color: #577590;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  
+  }
+  
+  .descricao {
+    color: #577590;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  
+  }
+  
+  .TituloLancamentos {
+    font-weight: bold;
+    color: #577590;
+    margin-left: 15px;
+    text-align: end;
+    margin-top: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+    font-size: large;
+  
+  
+  
+  }
+  .RodapeVideo{
+    font-weight: bold;
+    font-size: smaller;
+    color: #577590;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 15px;
+    text-align: end;
+  
+  
+  
+  }
+  #busca {
+    margin:0 auto;
+    padding:0;
+    }
+    #txtbusca {
+    border:0px solid #222;
+    background: #57759030;
+    width:260px;
+    height:35px;
+    margin: auto;
+    border-radius: 10px;
+    
+    padding:5px 0 5px 5px;
+  
+    float:left; 
+    line-height:36px; 
+    }
+    #btnBusca {
+    background: #00abae;
+    position:relative;
+    border:0px solid #222;
+    color:#FFF; 
+    margin:0 auto;
+    padding:10px;
+    border:0 none;
+    font-size:11px;
+    font-weight:bold;
+    text-transform:uppercase;
+    border-radius: 10px;
+    }
+    #btnBusca:hover {
+    background:#99cccc; }
+
+    .card-img-overlay {
+        background-color: rgba(0,0,0,0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    @media (max-width: 767.98px) {
+        .card-img-overlay {
+            position: relative
+        }
+    }
