@@ -3,7 +3,7 @@ const gamesHtml = $('#games');
 const paginateHtml = $('#paginate');
 const searchInput = $('#searchInput');
 const searchResult = $('#searchResult');
-
+var currentGame = 2;
 
 function cardGames(games) {
     return `<div class="col-lg-3 col-md-4 col-sm-6">
@@ -21,7 +21,7 @@ function cardGames(games) {
                            
                             </p>
                             
-                            <a href="OGamer/?id=${games.id}"style="color:#00abae" class="verMais">Ver mais...</a>
+                            <a href="OGamer/?gameId=${games.id}"style="color:#00abae" onclick="currentGame = ${games.id}" class="verMais">Ver mais...</a>
                     </div>
                 </div>
             </div>`;

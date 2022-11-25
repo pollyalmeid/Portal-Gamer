@@ -1,4 +1,4 @@
-const idGamer = new URLSearchParams(window.location.search).get('id');
+const idGamer = new URLSearchParams(window.location.search).get('gameId');
 const GamerHtml = $('#gams');
 
 function getHomePage(homepage) {
