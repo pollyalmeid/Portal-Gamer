@@ -21,7 +21,7 @@ function cardGames(games) {
                            
                             </p>
                             
-                            <a href="OGamer/?gameId=${games.id}"style="color:#00abae" onclick="currentGame = ${games.id}" class="verMais">Ver mais...</a>
+                            <a href="OGamer/?id=${games.id}"style="color:#00abae" onclick="currentGame = ${games.id}" class="verMais">Ver mais...</a>
                     </div>
                 </div>
             </div>`;
