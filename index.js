@@ -3,7 +3,7 @@ const gamesHtml = $('#games');
 const paginateHtml = $('#paginate');
 const searchInput = $('#searchInput');
 const searchResult = $('#searchResult');
-var currentGame = 2;
+
 
 function cardGames(games) {
     return `<div class="col-lg-3 col-md-4 col-sm-6">
